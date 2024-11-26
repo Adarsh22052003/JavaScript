@@ -31,4 +31,26 @@ let myObj ={
 const myFuction = function(){
     console.log("hello wolrd")
 }
-console.log(typeof myFuction);
+// console.log(typeof myFuction);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "adarshsachan";
+anotherName = "ankursachaan";
+
+console.log(myName);
+console.log(anotherName);
+
+let user = {
+    email: "e@mail.com",
+    upi: "user1@pytm"
+}
+let user1 = user;
+
+user1.email = "agmail.com"
+
+console.log(user.email);
+console.log(user1.email);
+
